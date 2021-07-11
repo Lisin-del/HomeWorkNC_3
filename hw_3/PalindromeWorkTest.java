@@ -12,14 +12,7 @@ public class PalindromeWorkTest {
         Assert.assertEquals(true, palindrome.isPalindrome(x));
     }
 
-    @Test
-    public void testPositiveNegativeValueProcessing() {
-        int x = -1245421;
-        PalindromeWork palindrome = new PalindromeWork();
-        Assert.assertEquals(true, palindrome.isPalindrome(x));
-        Assert.assertEquals(1245421, palindrome.getReversNum());
-    }
-
+  
     @Test
     public void testValidReversUserNum() {
         int x = 3456543;
